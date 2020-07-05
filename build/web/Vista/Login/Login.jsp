@@ -18,9 +18,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  
+    
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="../../Estilos/Login/Login.css" rel="stylesheet" type="text/css"/>
+   
+    
     <title>Index</title>
     <style>
 
@@ -37,33 +41,33 @@
               
               <div class="contenedorLogin">
                   <header><h2>Inicio de Sesión</h2></header>
-                  <div class="">
+                  <div class="row">
                       <div class="col-12">
                           <div class="form-group">
-                              <label for="idUsuario">Ingrese Usuario</label>
-                              <input type="text" class="form-control" name="Usuario" id="idUsuario" placeholder="Usuario">
+                              <label for="idUsuario" class="col-8 mx-auto">Ingrese Usuario</label>
+                              <input type="text" class="form-control col-8 mx-auto" name="Usuario" id="idUsuario" placeholder="Usuario">
                           </div>
                       </div>
                   </div>
-                  <div class="">
+                  <div class="row">
                       <div class="col-12">
                           <div class="form-group">
-                              <label for="idUsuario">Ingrese Contraseña</label>
-                              <input type="password" class="form-control" name="Contrasena" id="idContrasena" placeholder="Contraseña">
+                              <label for="idUsuario" class="col-8 mx-auto">Ingrese Contraseña</label>
+                              <input type="password" class="form-control col-8 mx-auto" name="Contrasena" id="idContrasena" placeholder="Contraseña">
                           </div>
                       </div>
                   </div>
 
-                  <div class="">
+                  <div class="row">
                       <div class="col-12">
                           <div class="form-group">
-                              <button class="btn btn-info btnIniciarSession btn-block">
+                              <button class="btn btn-info btnIniciarSession btn-block col-8 mx-auto">
                                   <i class=" iIniciarSesion"></i>Iniciar Sesión
                               </button>
                           </div>
                       </div>
                   </div>
-                 <div class="">
+                 <div class="row">
                       <div class="col-12">
                           <div class="form-group">
                               <button class="btn btn-info btnIniciarSessionGoggle btn-block">
@@ -72,7 +76,7 @@
                           </div>
                       </div>
                   </div>                  
-                 <div class="">
+                 <div class="row">
                       <div class="col-12">
                           <div class="form-group">
                               <button class="btn btn-info btnIniciarSessionFacebook btn-block">
