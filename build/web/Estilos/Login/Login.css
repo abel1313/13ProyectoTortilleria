@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contenedorPrincipal{
+    width: 100vw;
+    height: 100vh;
+  
+}
+  
+.contenedorHeader{
+   font-family: 'Anton', sans-serif;
+   width: 100%;
+   height: 15%;
+   background-color: grey;
+}
+.contenedorHeader header{
+    text-align: center;
+    padding: 15px;
+}
+.contenedorLogin{
+    width: 25%;
+    height:  100%;
+    float: right;
+    background-color: greenyellow;
+    box-shadow: -3px 2px 13px 7px #121416;
+}
+.contenedorLogin:hover{
+    box-shadow:  1px 1px 10px 1px #6610f2;
+    transition: 2.5s;
+}
+.contenedorLogin header h2{
+       font-family: 'Anton', sans-serif;
+        text-align: center;
+    padding: 15px;
+}
+.contenedorDialogo{
+    
+    width: 75%;
+    height:  100%;
+    float: left;
+    background-color: #0c5460;
+}
+.contenedorBody{
+  width: 100%;
+   height: 70%;
+   background-color: #004085;
+}
+.contenedorFooter{
+       width: 100%;
+   height: 15%;
+   background-color: grey;
+}
+
+
+
+      @media only screen and (max-width: 900px) {
+          .contenedorLogin header h2{
+              font-size: 1em;
+              padding: 3px;
+          }
+          .contenedorLogin label{
+              font-size: 1em;
+          }
+          .contenedorLogin input{
+              width: 100%;
+              height: 25px;
+              font-size: 1em;
+          }
+            .contenedorLogin button{
+              width: 100%;
+              height: 25px;
+              font-size: 9px;
+          }
+           .contenedorLogin button img{
+              width: 15px;
+              height: 15px;
+          }
+          .registrarse{
+              font-size: 0.5em;
+          }
+      }
+            @media only screen and (max-width: 500px) {
+          .contenedorLogin header h2{
+              font-size: 1em;
+              padding: 3px;
+          }
+          .contenedorLogin label{
+              font-size: 0.9em;
+          }
+          .contenedorLogin input{
+             width: 100%;
+              height: 25px;
+              font-size: 0.9em;
+          }
+            .contenedorLogin button{
+              width: 100%;
+              height: 25px;
+              font-size: 0.9em;
+          }
+           .contenedorLogin button img{
+              width: 10px;
+              height: 10px;
+          }
+          .registrarse{
+              font-size: 9px;
+          }
+      }
+         @media only screen and (max-height: 600px) {
+          .contenedorLogin header h2{
+              font-size: 0.10em;
+              padding: 0px;
+          }
+          .contenedorLogin label{
+              font-size: 9px;
+              padding: 0px;
+          }
+          .contenedorLogin input{
+             width: 100%;
+              height: 25px;
+              font-size: 12px;
+              padding: 0px;
+          }
+            .contenedorLogin button{
+              width: 100%;
+              height: 25px;
+              font-size: 9px;
+              padding: 0px;
+          }
+           .contenedorLogin button img{
+              width: 10px;
+              height: 10px;
+              padding: 0px;
+          }
+          .registrarse{
+              font-size: 9px;
+              padding: 0px;
+          }
+      }

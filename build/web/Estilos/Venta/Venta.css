@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mostrarCliente{
+    
+    width: 25%;
+    height: 50%;
+    
+    background-color: red !important;
+}
+.mostrarTortillasDisponibles{
+    width: 25%;
+    height: 50%;
+    background-color: green !important;
+}
+.mostrarDetalleVenta{
+position: absolute;
+    top:0%;
+    right: 0px;
+    width: 75%;
+    height: 30%;
+    background-color: green !important;
+
+}
+
